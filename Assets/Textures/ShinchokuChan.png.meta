@@ -512,7 +512,7 @@ TextureImporter:
         width: 135.39062
         height: 121.35541
       alignment: 9
-      pivot: {x: 0.4973781, y: 0.49441606}
+      pivot: {x: 0.8223637, y: 0.42025372}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -526,7 +526,7 @@ TextureImporter:
         width: 129.53125
         height: 121.355286
       alignment: 9
-      pivot: {x: 0.5013589, y: 0.4985362}
+      pivot: {x: 0.59014064, y: 0.47793552}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -618,6 +618,6 @@ TextureImporter:
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 99884392054784
+  userData: 99895982390757
   assetBundleName: 
   assetBundleVariant: 
