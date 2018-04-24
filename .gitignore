@@ -35,3 +35,5 @@ sysinfo.txt
 
 # Secret Config Files
 *.config_secret
+
+*.meta
