@@ -51,15 +51,12 @@ public class Player : MonoBehaviour {
 
     void OnTriggerEnter(Collider collider) {
         SetIsJumping(false);
-        Debug.Log("Ground Detected!");
     }
 
     void SetIsJumping(bool state)
     {
         animator.SetBool("is_jumping", state);
         is_jumping = state;
-
-        Debug.Log("IS JUMPING: " + is_jumping);
     }
 
 }
