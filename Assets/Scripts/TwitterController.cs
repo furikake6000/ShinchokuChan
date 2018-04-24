@@ -28,18 +28,16 @@ public class TwitterController : MonoBehaviour {
 		{
 			if(messageType == StreamMessageType.Tweet)
 			{
-				Debug.Log("Tweet");
 				Tweet tweet = JsonUtility.FromJson<Tweet>(response);
 				Debug.Log(tweet.text);
 			}
 			else if(messageType == StreamMessageType.StreamEvent)
 			{
-				Debug.Log("Event");
-				/*StreamEvent streamEvent = JsonUtility.FromJson<StreamEvent>(response);
+				StreamEvent streamEvent = JsonUtility.FromJson<StreamEvent>(response);
 				//Debug.Log(streamEvent.event_name);
 				if(streamEvent.event_name == "favorite"){
-					Debug.Log(response);
-				}*/
+					Debug.Log("Favorited!: from " + streamEvent.source.name);
+				}
 			}
 		}
 		catch (System.Exception e)
